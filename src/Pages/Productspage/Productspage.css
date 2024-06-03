@@ -1,0 +1,271 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.productNav {
+    display: flex;
+    background-color: #fafafa;
+    width: 100%;
+    height: 60px;
+
+}
+
+.productsnavs {
+    margin: auto 80px;
+    text-align: left;
+
+}
+
+.productspageicon {
+    margin-right: 10px;
+    color: #bdbdbd;
+}
+
+.shop {
+    color: #bdbdbd;
+}
+.productsDecriptionContainer{
+    background-color: #fafafa;
+}
+.productsDescription {
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    height: 550px;
+    gap: 30px;
+    margin: auto 80px;
+   
+}
+
+.img1 {
+    width: 506px;
+    height: 450px;
+    margin-bottom: 8px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 471px;
+    margin-left: 24px;
+
+}
+
+.description>h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 24px;
+
+}
+
+.description>h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    /* text-align: center; */
+    margin-left: 24px;
+}
+
+.description>h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 24px;
+
+}
+
+.description>h6>span {
+    color: blue;
+}
+
+.stars {
+    display: flex;
+    gap: 10px;
+    margin-left: 24px;
+}
+
+.staricons {
+    color: #F3CD03;
+    gap: 5px;
+}
+
+.circles {
+    display: flex;
+    /* Use flexbox to arrange children in a row */
+    gap: 20px;
+    /* Optional: add some space between the circles */
+    border-top: 1px solid #bdbdbd;
+    margin-top: 64px;
+    margin-left: 24px;
+}
+
+.circles>div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+.blue {
+    background-color: #23a6f0;
+}
+
+.green {
+    background-color: #2dc071;
+}
+
+.red {
+    background-color: #E77C40;
+    ;
+}
+
+.black {
+    background-color: #252b42;
+}
+
+.img2,
+.img3 {
+    width: 100px;
+    height: 75px;
+    margin-right: 10px;
+    border-bottom: ;
+}
+
+.lastpart {
+    display: flex;
+    margin-top: 64px;
+    gap: 30px;
+    margin-left: 24px;
+}
+
+.btn>button {
+    padding: 10px 20px;
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 5px;
+}
+
+.iconsets {
+    display: flex;
+    align-items: center;
+
+}
+
+.productsicon {
+    margin-right: 12px;
+
+}
+
+/* .productsAdditionalInfo {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+} */
+
+.additionalnfoContainer {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    width:100%;
+    
+}
+
+.additionalnfo {
+    display: flex;
+    gap: 30px;
+    color: #737373;
+    border-bottom:0.2px solid #bdbdbd;
+    /* width: 50%; */
+   
+
+}
+
+.longTxtContainer {
+    display: flex;
+    width: 100%;
+    height: 464px;
+    gap: 50px;
+    margin: auto 80px;
+    margin-top: 64px;
+    
+   
+}
+
+.longTxt {
+    display: flex;
+    width: auto 80px;
+    flex-direction: column;
+    max-width: 599px;
+    height:327px;
+    /* gap: 30px; */
+    
+    
+
+}
+.longTxt h3 {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+width: 304px;
+
+
+}
+.longTxt p {
+    max-width:599px;
+ height: 327px;
+ font-size: 14px;
+ line-height: 20px;
+ 
+ 
+}
+
+.extraPhoto {
+    display: flex;
+    width: auto 60px;
+    flex-direction: ;
+    width: 599px;
+    height:327px;
+    
+}
+.productspageBrandsContainer{
+    /* background-color: #fafafa; */
+}
+.productspageBrands{
+    display: flex;
+    margin: auto 80px;
+}
+.BestSeller{
+/* background-color: #fafafa; */
+width: 100%;
+height:1086px;
+justify-content: center;
+align-items: center;
+/* margin: auto 60px; */
+
+}
+.BestSellerItems{
+    width: (1,124px)px;
+height: (1,086px)px;
+left: 195px;
+padding: 48px 0px 48px 0px;
+gap: 24px;
+opacity: 0px;
+
+}
